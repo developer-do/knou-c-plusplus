@@ -1,0 +1,3 @@
+﻿circles1.obj : error LNK2005: _main이(가) array1.obj에 이미 정의되어 있습니다.
+circles2.obj : error LNK2005: _main이(가) array1.obj에 이미 정의되어 있습니다.
+C:\Users\user\Desktop\방통대 3학년 2학기\c++\3강\cppproj\Debug\cppproj.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

@@ -12,6 +12,12 @@ public:
         if (a) memcpy(arr, a, sizeof(float) * n);
     }
 
+    // ±Ì¿∫ ∫πªÁ
+    VecF(const VecF& fv) : n{ fv.n } {
+        arr = new float[n];
+        memcpy(arr, fv.arr, sizeof(float) * n);
+    }
+
     ~VecF() {
         delete[] arr;
     }
